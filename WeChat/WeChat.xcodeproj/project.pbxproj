@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25856AA01C0842B600B2031F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856A9F1C0842B600B2031F /* main.m */; };
+		25856AA31C0842B600B2031F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856AA21C0842B600B2031F /* AppDelegate.m */; };
+		25856AA61C0842B600B2031F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856AA51C0842B600B2031F /* ViewController.m */; };
+		25856AAB1C0842B600B2031F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25856AAA1C0842B600B2031F /* Assets.xcassets */; };
+		25856ABE1C0845AC00B2031F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856ABD1C0845AC00B2031F /* RootViewController.m */; };
+		25856AC51C084E7700B2031F /* WXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856AC41C084E7700B2031F /* WXNavigationController.m */; };
+		25856AC81C08530C00B2031F /* CommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856AC71C08530C00B2031F /* CommonTableViewController.m */; };
+		25856ACF1C0854AC00B2031F /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856ACE1C0854AC00B2031F /* FriendsViewController.m */; };
+		25856AD61C08567B00B2031F /* ConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856AD51C08567B00B2031F /* ConversationViewController.m */; };
+		25856ADE1C0859DC00B2031F /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856ADD1C0859DC00B2031F /* DiscoverViewController.m */; };
+		25856AE31C085A5C00B2031F /* SettingBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856AE21C085A5C00B2031F /* SettingBaseViewController.m */; };
+		25856AE91C085BF100B2031F /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856AE81C085BF100B2031F /* MineViewController.m */; };
+		25856AED1C085C3200B2031F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856AEC1C085C3200B2031F /* User.m */; };
+		25856AF01C08700B00B2031F /* WEIXIN.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25856AEF1C08700B00B2031F /* WEIXIN.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25856A9B1C0842B600B2031F /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25856A9F1C0842B600B2031F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25856AA11C0842B600B2031F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25856AA21C0842B600B2031F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25856AA41C0842B600B2031F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25856AA51C0842B600B2031F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25856AAA1C0842B600B2031F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25856AAF1C0842B600B2031F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25856ABC1C0845AC00B2031F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		25856ABD1C0845AC00B2031F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		25856AC01C08497E00B2031F /* macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
+		25856AC11C084C9200B2031F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		25856AC31C084E7700B2031F /* WXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNavigationController.h; sourceTree = "<group>"; };
+		25856AC41C084E7700B2031F /* WXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXNavigationController.m; sourceTree = "<group>"; };
+		25856AC61C08530C00B2031F /* CommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewController.h; sourceTree = "<group>"; };
+		25856AC71C08530C00B2031F /* CommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewController.m; sourceTree = "<group>"; };
+		25856ACD1C0854AC00B2031F /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		25856ACE1C0854AC00B2031F /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		25856AD41C08567B00B2031F /* ConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationViewController.h; sourceTree = "<group>"; };
+		25856AD51C08567B00B2031F /* ConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationViewController.m; sourceTree = "<group>"; };
+		25856ADC1C0859DC00B2031F /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		25856ADD1C0859DC00B2031F /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		25856AE11C085A5C00B2031F /* SettingBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingBaseViewController.h; sourceTree = "<group>"; };
+		25856AE21C085A5C00B2031F /* SettingBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingBaseViewController.m; sourceTree = "<group>"; };
+		25856AE71C085BF100B2031F /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		25856AE81C085BF100B2031F /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		25856AEB1C085C3200B2031F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		25856AEC1C085C3200B2031F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		25856AEF1C08700B00B2031F /* WEIXIN.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WEIXIN.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25856A981C0842B600B2031F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25856A921C0842B600B2031F = {
+			isa = PBXGroup;
+			children = (
+				25856A9D1C0842B600B2031F /* WeChat */,
+				25856A9C1C0842B600B2031F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25856A9C1C0842B600B2031F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25856A9B1C0842B600B2031F /* WeChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25856A9D1C0842B600B2031F /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				25856AA11C0842B600B2031F /* AppDelegate.h */,
+				25856AA21C0842B600B2031F /* AppDelegate.m */,
+				25856AB61C08442200B2031F /* SRC */,
+				25856AB51C0843E300B2031F /* Global */,
+				25856AB81C08446900B2031F /* Extensions */,
+				25856AB71C08445200B2031F /* Common */,
+				25856AB91C08449100B2031F /* Resources */,
+				25856A9E1C0842B600B2031F /* Supporting Files */,
+				25856AA41C0842B600B2031F /* ViewController.h */,
+				25856AA51C0842B600B2031F /* ViewController.m */,
+				25856AAA1C0842B600B2031F /* Assets.xcassets */,
+				25856AAF1C0842B600B2031F /* Info.plist */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		25856A9E1C0842B600B2031F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25856AC11C084C9200B2031F /* PrefixHeader.pch */,
+				25856A9F1C0842B600B2031F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25856AB51C0843E300B2031F /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				25856AC01C08497E00B2031F /* macros.h */,
+			);
+			name = Global;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		25856AB61C08442200B2031F /* SRC */ = {
+			isa = PBXGroup;
+			children = (
+				25856ADF1C085A3900B2031F /* Setting */,
+				25856AD81C08596B00B2031F /* Mine */,
+				25856AD71C08595C00B2031F /* Discover */,
+				25856AD01C08562700B2031F /* Conversation */,
+				25856AC91C08545700B2031F /* FriendList */,
+				25856ABA1C08455B00B2031F /* ROOT */,
+			);
+			name = SRC;
+			sourceTree = "<group>";
+		};
+		25856AB71C08445200B2031F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				25856AC21C084E4500B2031F /* NavgitionController */,
+				25856AC61C08530C00B2031F /* CommonTableViewController.h */,
+				25856AC71C08530C00B2031F /* CommonTableViewController.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		25856AB81C08446900B2031F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		25856AB91C08449100B2031F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25856AEF1C08700B00B2031F /* WEIXIN.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		25856ABA1C08455B00B2031F /* ROOT */ = {
+			isa = PBXGroup;
+			children = (
+				25856ABB1C08456800B2031F /* Controllers */,
+			);
+			name = ROOT;
+			sourceTree = "<group>";
+		};
+		25856ABB1C08456800B2031F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25856ABC1C0845AC00B2031F /* RootViewController.h */,
+				25856ABD1C0845AC00B2031F /* RootViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		25856AC21C084E4500B2031F /* NavgitionController */ = {
+			isa = PBXGroup;
+			children = (
+				25856AC31C084E7700B2031F /* WXNavigationController.h */,
+				25856AC41C084E7700B2031F /* WXNavigationController.m */,
+			);
+			name = NavgitionController;
+			sourceTree = "<group>";
+		};
+		25856AC91C08545700B2031F /* FriendList */ = {
+			isa = PBXGroup;
+			children = (
+				25856ACC1C08548400B2031F /* Views */,
+				25856ACB1C08547B00B2031F /* Models */,
+				25856ACA1C08546800B2031F /* Controllers */,
+			);
+			name = FriendList;
+			sourceTree = "<group>";
+		};
+		25856ACA1C08546800B2031F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25856ACD1C0854AC00B2031F /* FriendsViewController.h */,
+				25856ACE1C0854AC00B2031F /* FriendsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		25856ACB1C08547B00B2031F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				25856AEB1C085C3200B2031F /* User.h */,
+				25856AEC1C085C3200B2031F /* User.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		25856ACC1C08548400B2031F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		25856AD01C08562700B2031F /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				25856AD31C08566400B2031F /* Controllers */,
+				25856AD21C08565B00B2031F /* Models */,
+				25856AD11C08565000B2031F /* Views */,
+			);
+			name = Conversation;
+			sourceTree = "<group>";
+		};
+		25856AD11C08565000B2031F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		25856AD21C08565B00B2031F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		25856AD31C08566400B2031F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25856AD41C08567B00B2031F /* ConversationViewController.h */,
+				25856AD51C08567B00B2031F /* ConversationViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		25856AD71C08595C00B2031F /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				25856ADB1C0859C100B2031F /* Controllers */,
+				25856ADA1C0859BB00B2031F /* Views */,
+				25856AD91C0859B000B2031F /* Models */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		25856AD81C08596B00B2031F /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				25856AE61C085BDB00B2031F /* Models */,
+				25856AE51C085BD500B2031F /* Views */,
+				25856AE41C085BCA00B2031F /* Controllers */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		25856AD91C0859B000B2031F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		25856ADA1C0859BB00B2031F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		25856ADB1C0859C100B2031F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25856ADC1C0859DC00B2031F /* DiscoverViewController.h */,
+				25856ADD1C0859DC00B2031F /* DiscoverViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		25856ADF1C085A3900B2031F /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				25856AE01C085A4100B2031F /* Controllers */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		25856AE01C085A4100B2031F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25856AE11C085A5C00B2031F /* SettingBaseViewController.h */,
+				25856AE21C085A5C00B2031F /* SettingBaseViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		25856AE41C085BCA00B2031F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25856AE71C085BF100B2031F /* MineViewController.h */,
+				25856AE81C085BF100B2031F /* MineViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		25856AE51C085BD500B2031F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		25856AE61C085BDB00B2031F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25856A9A1C0842B600B2031F /* WeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25856AB21C0842B600B2031F /* Build configuration list for PBXNativeTarget "WeChat" */;
+			buildPhases = (
+				25856A971C0842B600B2031F /* Sources */,
+				25856A981C0842B600B2031F /* Frameworks */,
+				25856A991C0842B600B2031F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeChat;
+			productName = WeChat;
+			productReference = 25856A9B1C0842B600B2031F /* WeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25856A931C0842B600B2031F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zdx;
+				TargetAttributes = {
+					25856A9A1C0842B600B2031F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 25856A961C0842B600B2031F /* Build configuration list for PBXProject "WeChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25856A921C0842B600B2031F;
+			productRefGroup = 25856A9C1C0842B600B2031F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25856A9A1C0842B600B2031F /* WeChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25856A991C0842B600B2031F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25856AAB1C0842B600B2031F /* Assets.xcassets in Resources */,
+				25856AF01C08700B00B2031F /* WEIXIN.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25856A971C0842B600B2031F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25856AA61C0842B600B2031F /* ViewController.m in Sources */,
+				25856ADE1C0859DC00B2031F /* DiscoverViewController.m in Sources */,
+				25856AD61C08567B00B2031F /* ConversationViewController.m in Sources */,
+				25856AC51C084E7700B2031F /* WXNavigationController.m in Sources */,
+				25856ACF1C0854AC00B2031F /* FriendsViewController.m in Sources */,
+				25856AE91C085BF100B2031F /* MineViewController.m in Sources */,
+				25856AC81C08530C00B2031F /* CommonTableViewController.m in Sources */,
+				25856AE31C085A5C00B2031F /* SettingBaseViewController.m in Sources */,
+				25856AED1C085C3200B2031F /* User.m in Sources */,
+				25856AA31C0842B600B2031F /* AppDelegate.m in Sources */,
+				25856ABE1C0845AC00B2031F /* RootViewController.m in Sources */,
+				25856AA01C0842B600B2031F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25856AB01C0842B600B2031F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25856AB11C0842B600B2031F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25856AB31C0842B600B2031F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/zdx/Project/Xcode/OC-Begin/WeChat/PrefixHeader.pch";
+				INFOPLIST_FILE = WeChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.WeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25856AB41C0842B600B2031F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/zdx/Project/Xcode/OC-Begin/WeChat/PrefixHeader.pch";
+				INFOPLIST_FILE = WeChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.WeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25856A961C0842B600B2031F /* Build configuration list for PBXProject "WeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25856AB01C0842B600B2031F /* Debug */,
+				25856AB11C0842B600B2031F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25856AB21C0842B600B2031F /* Build configuration list for PBXNativeTarget "WeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25856AB31C0842B600B2031F /* Debug */,
+				25856AB41C0842B600B2031F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25856A931C0842B600B2031F /* Project object */;
+}
