@@ -29,7 +29,7 @@
     frontPageIndex=0;
     
     self.view.backgroundColor=[UIColor blackColor];
-//    backgroundImageViews=[[NSMutableArray alloc]init];
+    //    backgroundImageViews=[[NSMutableArray alloc]init];
     [self initGuide];
     
 }
@@ -54,8 +54,8 @@
     [imageView setImage:[UIImage imageNamed:[backGroundPics objectAtIndex:0]]];
     [self.view addSubview:imageView];
     [self.view sendSubviewToBack:imageView];
-    [self.view sendSubviewToBack:imageView];
-
+    
+    
     UIScrollView *scrollView=[[UIScrollView alloc]initWithFrame:CGRectMake(0,0 , screenWidth,threeFifthHeight+90)];
     [scrollView setContentSize:CGSizeMake(screenWidth*3, 0)];
     [scrollView setPagingEnabled:YES];
@@ -106,6 +106,7 @@
     [loginButton addTarget:self action:@selector(clickLoginUp:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:loginButton];
     
+    //    UIView
     
     [self.view addSubview:scrollView];
     
@@ -116,6 +117,8 @@
     pageConteol.tag = 201;
     
     [self.view addSubview: pageConteol];
+    
+   
 }
 
 
@@ -125,11 +128,7 @@
 //    [self.view sendSubviewToBack:bgImgView];
 
 
-//        UIGraphicsBeginImageContext(self.view.frame.size);
-//        [[backgroundImageViews objectAtIndex:index] drawInRect:self.view.bounds];
-//        UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-//        UIGraphicsEndImageContext();
-//        self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+
 
 - (void) scrollViewDidScroll:(UIScrollView *)scrollView{
     CGFloat pageWidth = scrollView.frame.size.width;
