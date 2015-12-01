@@ -10,5 +10,6 @@
 #define PrefixHeader_pch
 
 #import "macros.h"
+#import "UIView+WX.h"
 
 #endif /* PrefixHeader_pch */

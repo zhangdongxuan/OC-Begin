@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "699527FCFC41DFD94985D774B397A30DEC9DD3CA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "833912DC0F56C4B52BA698DCE0521569918042BA" : 0,
+    "D849DDBBE6212F64B7ABF6D80F4E4592864D0994" : 0,
+    "699527FCFC41DFD94985D774B397A30DEC9DD3CA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "39FF74E5-F1D8-471C-ADBF-F38DD84D16C2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "833912DC0F56C4B52BA698DCE0521569918042BA" : "OC-Begin\/",
+    "D849DDBBE6212F64B7ABF6D80F4E4592864D0994" : "",
+    "699527FCFC41DFD94985D774B397A30DEC9DD3CA" : "iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WeChat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WeChat\/WeChat.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zhangdongxuan\/OC-Begin.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "699527FCFC41DFD94985D774B397A30DEC9DD3CA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zhangdongxuan\/OC-Begin.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "833912DC0F56C4B52BA698DCE0521569918042BA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.coding.net:zdx\/iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D849DDBBE6212F64B7ABF6D80F4E4592864D0994"
+    }
+  ]
+}

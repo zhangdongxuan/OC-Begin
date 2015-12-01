@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		252B1ADE1C0C38D400E9531B /* FriendSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 252B1ADD1C0C38D400E9531B /* FriendSearchViewController.m */; };
+		252B1AE11C0C39F300E9531B /* FriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 252B1AE01C0C39F300E9531B /* FriendCell.m */; };
+		252B1AEE1C0C42AD00E9531B /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252B1AE31C0C42AD00E9531B /* 0.jpg */; };
+		252B1AEF1C0C42AD00E9531B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252B1AE41C0C42AD00E9531B /* 1.jpg */; };
+		252B1AF01C0C42AD00E9531B /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252B1AE51C0C42AD00E9531B /* 2.jpg */; };
+		252B1AF11C0C42AD00E9531B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252B1AE61C0C42AD00E9531B /* 3.jpg */; };
+		252B1AF21C0C42AD00E9531B /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252B1AE71C0C42AD00E9531B /* 4.jpg */; };
+		252B1AF31C0C42AD00E9531B /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252B1AE81C0C42AD00E9531B /* 5.jpg */; };
+		252B1AF41C0C42AD00E9531B /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 252B1AE91C0C42AD00E9531B /* 6.jpeg */; };
+		252B1AF51C0C42AD00E9531B /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252B1AEA1C0C42AD00E9531B /* 7.jpg */; };
+		252B1AF61C0C42AD00E9531B /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252B1AEB1C0C42AD00E9531B /* 8.jpg */; };
+		252B1AF71C0C42AD00E9531B /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252B1AEC1C0C42AD00E9531B /* 9.jpg */; };
+		252B1AF81C0C42AD00E9531B /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252B1AED1C0C42AD00E9531B /* 10.jpg */; };
+		252B1AFB1C0C45F800E9531B /* Conversation.m in Sources */ = {isa = PBXBuildFile; fileRef = 252B1AFA1C0C45F800E9531B /* Conversation.m */; };
+		252B1AFF1C0C52E200E9531B /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 252B1AFE1C0C52E200E9531B /* ChatViewController.m */; };
+		252B1B031C0C687400E9531B /* CommonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 252B1B021C0C687400E9531B /* CommonTableViewCell.m */; };
+		252B1B071C0C716400E9531B /* UIView+WX.m in Sources */ = {isa = PBXBuildFile; fileRef = 252B1B061C0C716400E9531B /* UIView+WX.m */; };
+		252B1B0A1C0C739700E9531B /* ConversationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 252B1B091C0C739700E9531B /* ConversationCell.m */; };
 		25856AA01C0842B600B2031F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856A9F1C0842B600B2031F /* main.m */; };
 		25856AA31C0842B600B2031F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856AA21C0842B600B2031F /* AppDelegate.m */; };
 		25856AA61C0842B600B2031F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25856AA51C0842B600B2031F /* ViewController.m */; };
@@ -24,6 +42,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		252B1ADC1C0C38D400E9531B /* FriendSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendSearchViewController.h; sourceTree = "<group>"; };
+		252B1ADD1C0C38D400E9531B /* FriendSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendSearchViewController.m; sourceTree = "<group>"; };
+		252B1ADF1C0C39F300E9531B /* FriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendCell.h; sourceTree = "<group>"; };
+		252B1AE01C0C39F300E9531B /* FriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendCell.m; sourceTree = "<group>"; };
+		252B1AE31C0C42AD00E9531B /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		252B1AE41C0C42AD00E9531B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		252B1AE51C0C42AD00E9531B /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		252B1AE61C0C42AD00E9531B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		252B1AE71C0C42AD00E9531B /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		252B1AE81C0C42AD00E9531B /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		252B1AE91C0C42AD00E9531B /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		252B1AEA1C0C42AD00E9531B /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		252B1AEB1C0C42AD00E9531B /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		252B1AEC1C0C42AD00E9531B /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		252B1AED1C0C42AD00E9531B /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		252B1AF91C0C45F800E9531B /* Conversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conversation.h; sourceTree = "<group>"; };
+		252B1AFA1C0C45F800E9531B /* Conversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conversation.m; sourceTree = "<group>"; };
+		252B1AFD1C0C52E200E9531B /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		252B1AFE1C0C52E200E9531B /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		252B1B011C0C687400E9531B /* CommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewCell.h; sourceTree = "<group>"; };
+		252B1B021C0C687400E9531B /* CommonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewCell.m; sourceTree = "<group>"; };
+		252B1B051C0C716400E9531B /* UIView+WX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WX.h"; sourceTree = "<group>"; };
+		252B1B061C0C716400E9531B /* UIView+WX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WX.m"; sourceTree = "<group>"; };
+		252B1B081C0C739700E9531B /* ConversationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationCell.h; sourceTree = "<group>"; };
+		252B1B091C0C739700E9531B /* ConversationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationCell.m; sourceTree = "<group>"; };
 		25856A9B1C0842B600B2031F /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25856A9F1C0842B600B2031F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25856AA11C0842B600B2031F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +109,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		252B1AE21C0C427C00E9531B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				252B1AE31C0C42AD00E9531B /* 0.jpg */,
+				252B1AE41C0C42AD00E9531B /* 1.jpg */,
+				252B1AE51C0C42AD00E9531B /* 2.jpg */,
+				252B1AE61C0C42AD00E9531B /* 3.jpg */,
+				252B1AE71C0C42AD00E9531B /* 4.jpg */,
+				252B1AE81C0C42AD00E9531B /* 5.jpg */,
+				252B1AE91C0C42AD00E9531B /* 6.jpeg */,
+				252B1AEA1C0C42AD00E9531B /* 7.jpg */,
+				252B1AEB1C0C42AD00E9531B /* 8.jpg */,
+				252B1AEC1C0C42AD00E9531B /* 9.jpg */,
+				252B1AED1C0C42AD00E9531B /* 10.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		252B1AFC1C0C52D000E9531B /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				252B1AFD1C0C52E200E9531B /* ChatViewController.h */,
+				252B1AFE1C0C52E200E9531B /* ChatViewController.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		252B1B001C0C684300E9531B /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				252B1B011C0C687400E9531B /* CommonTableViewCell.h */,
+				252B1B021C0C687400E9531B /* CommonTableViewCell.m */,
+			);
+			name = TableCell;
+			sourceTree = "<group>";
+		};
+		252B1B041C0C6FDC00E9531B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				252B1B051C0C716400E9531B /* UIView+WX.h */,
+				252B1B061C0C716400E9531B /* UIView+WX.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		25856A921C0842B600B2031F = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +210,7 @@
 		25856AB61C08442200B2031F /* SRC */ = {
 			isa = PBXGroup;
 			children = (
+				252B1AFC1C0C52D000E9531B /* Chat */,
 				25856ADF1C085A3900B2031F /* Setting */,
 				25856AD81C08596B00B2031F /* Mine */,
 				25856AD71C08595C00B2031F /* Discover */,
@@ -135,6 +224,7 @@
 		25856AB71C08445200B2031F /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				252B1B001C0C684300E9531B /* TableCell */,
 				25856AC21C084E4500B2031F /* NavgitionController */,
 				25856AC61C08530C00B2031F /* CommonTableViewController.h */,
 				25856AC71C08530C00B2031F /* CommonTableViewController.m */,
@@ -145,6 +235,7 @@
 		25856AB81C08446900B2031F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				252B1B041C0C6FDC00E9531B /* Category */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -152,6 +243,7 @@
 		25856AB91C08449100B2031F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				252B1AE21C0C427C00E9531B /* images */,
 				25856AEF1C08700B00B2031F /* WEIXIN.xcassets */,
 			);
 			name = Resources;
@@ -198,6 +290,8 @@
 			children = (
 				25856ACD1C0854AC00B2031F /* FriendsViewController.h */,
 				25856ACE1C0854AC00B2031F /* FriendsViewController.m */,
+				252B1ADC1C0C38D400E9531B /* FriendSearchViewController.h */,
+				252B1ADD1C0C38D400E9531B /* FriendSearchViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -214,6 +308,8 @@
 		25856ACC1C08548400B2031F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				252B1ADF1C0C39F300E9531B /* FriendCell.h */,
+				252B1AE01C0C39F300E9531B /* FriendCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -231,6 +327,8 @@
 		25856AD11C08565000B2031F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				252B1B081C0C739700E9531B /* ConversationCell.h */,
+				252B1B091C0C739700E9531B /* ConversationCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -238,6 +336,8 @@
 		25856AD21C08565B00B2031F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				252B1AF91C0C45F800E9531B /* Conversation.h */,
+				252B1AFA1C0C45F800E9531B /* Conversation.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -391,6 +491,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				252B1AF11C0C42AD00E9531B /* 3.jpg in Resources */,
+				252B1AEE1C0C42AD00E9531B /* 0.jpg in Resources */,
+				252B1AEF1C0C42AD00E9531B /* 1.jpg in Resources */,
+				252B1AF41C0C42AD00E9531B /* 6.jpeg in Resources */,
+				252B1AF81C0C42AD00E9531B /* 10.jpg in Resources */,
+				252B1AF21C0C42AD00E9531B /* 4.jpg in Resources */,
+				252B1AF51C0C42AD00E9531B /* 7.jpg in Resources */,
+				252B1AF31C0C42AD00E9531B /* 5.jpg in Resources */,
+				252B1AF01C0C42AD00E9531B /* 2.jpg in Resources */,
+				252B1AF71C0C42AD00E9531B /* 9.jpg in Resources */,
+				252B1AF61C0C42AD00E9531B /* 8.jpg in Resources */,
 				25856AAB1C0842B600B2031F /* Assets.xcassets in Resources */,
 				25856AF01C08700B00B2031F /* WEIXIN.xcassets in Resources */,
 			);
@@ -403,17 +514,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				252B1AFB1C0C45F800E9531B /* Conversation.m in Sources */,
 				25856AA61C0842B600B2031F /* ViewController.m in Sources */,
 				25856ADE1C0859DC00B2031F /* DiscoverViewController.m in Sources */,
 				25856AD61C08567B00B2031F /* ConversationViewController.m in Sources */,
+				252B1ADE1C0C38D400E9531B /* FriendSearchViewController.m in Sources */,
+				252B1B031C0C687400E9531B /* CommonTableViewCell.m in Sources */,
+				252B1B0A1C0C739700E9531B /* ConversationCell.m in Sources */,
 				25856AC51C084E7700B2031F /* WXNavigationController.m in Sources */,
+				252B1AE11C0C39F300E9531B /* FriendCell.m in Sources */,
 				25856ACF1C0854AC00B2031F /* FriendsViewController.m in Sources */,
 				25856AE91C085BF100B2031F /* MineViewController.m in Sources */,
 				25856AC81C08530C00B2031F /* CommonTableViewController.m in Sources */,
 				25856AE31C085A5C00B2031F /* SettingBaseViewController.m in Sources */,
 				25856AED1C085C3200B2031F /* User.m in Sources */,
+				252B1B071C0C716400E9531B /* UIView+WX.m in Sources */,
 				25856AA31C0842B600B2031F /* AppDelegate.m in Sources */,
 				25856ABE1C0845AC00B2031F /* RootViewController.m in Sources */,
+				252B1AFF1C0C52E200E9531B /* ChatViewController.m in Sources */,
 				25856AA01C0842B600B2031F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,7 +626,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/zdx/Project/Xcode/OC-Begin/WeChat/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = /Users/zdx/Project/iOS/WeChat/PrefixHeader.pch;
 				INFOPLIST_FILE = WeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.WeChat;
@@ -523,7 +641,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/zdx/Project/Xcode/OC-Begin/WeChat/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = /Users/zdx/Project/iOS/WeChat/PrefixHeader.pch;
 				INFOPLIST_FILE = WeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.WeChat;
